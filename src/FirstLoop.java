@@ -19,7 +19,7 @@ public class FirstLoop {
             userPassword = readValueFromConsole();
             counter++;
             if (counter >= 8) {
-                System.out.println("Ai epuizat numarul de incercari permise!");
+                System.out.println("Ai epuizat numarul de incercari permise.");
                 System.exit(0);
             }
             isValid = password.equals(userPassword);
