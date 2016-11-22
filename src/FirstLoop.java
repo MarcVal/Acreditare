@@ -25,7 +25,7 @@ public class FirstLoop {
             isValid = password.equals(userPassword);
             if (isValid) {
                 System.out.println("You have access!");
-                System.out.println("Ai reusit sa ghicesti parola din doar " + counter + " incercari!");
+                System.out.println("Ai reusit sa ghicesti parola din doar  " + counter + " incercari!");
 
                 System.exit(0);
             } else {
