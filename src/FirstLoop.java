@@ -29,7 +29,7 @@ public class FirstLoop {
 
                 System.exit(0);
             } else {
-                System.out.println("Access denied after " + counter + " attempts.");
+                System.out.println("Access denied after " + counter + " attempts!");
             }
         }
         while (!isValid && counter < 8);    }
