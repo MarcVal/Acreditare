@@ -16,7 +16,7 @@ public class primeNumbers {
             int j;
             for (j = 2; j <= m; j++) {
                 if (n % j == 0) {
-                    System.out.println(i+ "Number is not prime");
+                    System.out.println(i+ "Number is not prime.");
                     flag = 1;
                     break;
                 }
