@@ -3,31 +3,33 @@ package OtherProblems;
 /**
  * Created by Valeria Marc on 12/10/2016.
  */
-public class Book extends Author {
+public class Book {
+    private String name;
+    private int year;
+    private Author author;
+    private double price;
 
-    String title;
-    int year;
-    double price;
-    String author;
-
-    public static void main(String[] args) {
-
-        Book Book1 = new Book();
-        Book1.title = "TitlulCartii";
-        Book1.year = 1990;
-        Book1.price = 99.50;
-        Book1.author = "Giavalescu";
-
-        System.out.println(Book1.title + " for price " + Book1.price + " written by " + Book1.author + " and published in " + Book1.year);
+    public Book(String name, double price, Author author, int year) {
+        //these are constructors!!!
+        this.name = name;
+        this.year = year;
+        this.author = author;
+        this.price = price;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public Author getAuthor() {
+        return this.author;
+    }
+
+    public double getPrice() {
+        return this.price;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
 }
-
-//  System.out.println(book + author);
-
-
-//name, year, author, price
-// +Book(name:String, year:int, author:Author)
-//+getName():String
-//  +getAuthor():Author
-//+getPrice():double

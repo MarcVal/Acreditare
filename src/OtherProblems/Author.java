@@ -6,21 +6,20 @@ package OtherProblems;
 public class Author {
 
 
-    private String Name;
-    private String Email;
+    private String name;
+    private String email;
 
 
-    public static void main(String[] args) {
-        Author author = new Author();
-        author.Name = "Giavalescu";
-        author.Email = "giavalescu@intelliJ.com"; }
+    public Author (String name, String email) {
+       this.name=name;
+    this.email=email;}
 
     public String getName() {
-        return Name;
+        return this.name;
     }
 
     public String getEmail() {
-        return Email;
+        return this.email;
     }
 
    }
